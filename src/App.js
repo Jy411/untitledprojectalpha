@@ -9,6 +9,10 @@ function App() {
         <h1>
           hellu world 🤪
         </h1>
+        <h2>
+          Learning React here 🦄
+        </h2>
+
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
