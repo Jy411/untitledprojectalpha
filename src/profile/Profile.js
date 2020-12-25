@@ -1,7 +1,18 @@
-import React, {Fragment} from 'react';
+import React, {useState} from 'react';
 
-export const Profile = () => (
-  <Fragment>
-    <p>Hello</p>
-  </Fragment>
-);
+import './Profile.css';
+import moment from "moment";
+
+export const Profile = () => {
+  const [date, setDate] = useState(moment().format('MMMM Do YYYY'));
+  // const [time, setTime] = useState(moment().format('h:mm:ss a'));
+
+  return (
+  <div className="profile">
+
+    <div className="dateTime">
+      {date}
+    </div>
+
+  </div>
+)};

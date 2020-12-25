@@ -1,0 +1,14 @@
+.profile {
+    background-color: steelblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dateTime {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}

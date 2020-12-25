@@ -1,5 +1,5 @@
 import logo from "../logo.svg";
-import './home.css';
+import './Home.css';
 
 export const Home = () => (
     <div className="App">
